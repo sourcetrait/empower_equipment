@@ -38,8 +38,14 @@ rigs = [
     "sourcetrait/fae",
     "sourcetrait/queen"
 ]
-gear = [
-    "sourcetrait/empower"
+gear.box = [
+    "sourcetrait/empwr"
+]
+gear.desk = [
+    "sourcetrait/empwr"
+]
+gear.lib = [
+    "sourcetrait/lib_empwr"
 ]
 bags = [
     "sourcetrait/empower/roles"
