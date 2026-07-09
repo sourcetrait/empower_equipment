@@ -29,8 +29,8 @@ write.provider = "github"
 write.uri = "ssh://git@github.com:sourcetrait/empower_equipment.git"
 write.reference = "draft/roylaurie"
 
-[exports]
-rigs = [
+[export]
+rig = [
     "sourcetrait/ant",
     "sourcetrait/drone",
     "sourcetrait/equip",
@@ -47,11 +47,11 @@ gear.desk = [
 gear.lib = [
     "sourcetrait/lib_empwr"
 ]
-bags = [
+bag = [
     "sourcetrait/empower/roles"
 ]
 
-[[imports.repository]]
+[[import.repository]]
 key = "git/sourcetrait/equipment"
 kind = "git"
 read.provider = "github"
