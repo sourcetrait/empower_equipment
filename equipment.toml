@@ -1,0 +1,56 @@
+key = "empower"
+title = "SourceTrait Empower Equipment"
+version = "0.0.0-2"
+
+[support]
+nushell.version = "0.113"
+equipment.version = "0"
+
+[author]
+key = "sourcetrait"
+title = "SourceTrait"
+email = "development@sourcetrait.com"
+
+[details]
+summary = "Equipment for SourceTrait Empower"
+keywords = ["ai"]
+
+[license]
+spdx = "AGPL-3.0-or-later"
+file = "LICENSE-AGPL-3.txt"
+
+[repository]
+key = "git/sourcetrait/empower"
+kind = "git"
+read.provider = "github"
+read.uri = "https://github.com/sourcetrait/empower_equipment.git"
+read.reference = "draft/roylaurie"
+write.provider = "github"
+write.uri = "ssh://git@github.com:sourcetrait/empower_equipment.git"
+write.reference = "draft/roylaurie"
+
+[exports]
+rigs = [
+    "sourcetrait/ant",
+    "sourcetrait/drone",
+    "sourcetrait/equip",
+    "sourcetrait/empower",
+    "sourcetrait/fae",
+    "sourcetrait/queen"
+]
+gear = [
+    "sourcetrait/empower"
+]
+bags = [
+    "sourcetrait/empower/roles"
+]
+
+[[imports.repository]]
+key = "git/sourcetrait/equipment"
+kind = "git"
+read.provider = "github"
+read.uri = "https://github.com/sourcetrait/standard_equipment.git"
+read.reference = "draft/roylaurie"
+write.provider = "github"
+write.uri = "ssh://git@github.com:sourcetrait/standard_equipment.git"
+write.reference = "draft/roylaurie"
