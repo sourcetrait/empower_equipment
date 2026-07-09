@@ -48,7 +48,7 @@ gear.lib = [
     "sourcetrait/lib_empwr"
 ]
 bag = [
-    "sourcetrait/empower/roles"
+    "sourcetrait/empower/role"
 ]
 
 [[import.repository]]
