@@ -2,10 +2,6 @@ key = "empower"
 title = "SourceTrait Empower Equipment"
 version = "0.0.0-2"
 
-[support]
-nushell.version = "0.113"
-equipment.version = "0"
-
 [author]
 key = "sourcetrait"
 title = "SourceTrait"
@@ -19,7 +15,11 @@ keywords = ["ai"]
 spdx = "AGPL-3.0-or-later"
 file = "LICENSE-AGPL-3.txt"
 
-[repository]
+[support]
+nushell.version = "0.113"
+equipment.version = "0"
+
+[[repository]]
 key = "git/sourcetrait/empower"
 kind = "git"
 read.provider = "github"
